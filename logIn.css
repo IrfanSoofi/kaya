@@ -1,0 +1,296 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+    min-width: 100%;
+    background: rgb(255, 235, 235);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+form {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    width: 100vw;
+    height: 30vh;
+    margin-top: 0;
+    margin-left: 0;
+    position: absolute;
+}
+
+#logo {
+    width: 30vw;
+    position: absolute;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+#heading {
+    width: 55vw;
+    margin-left: 31vw;
+    margin-top: 5vw;
+}
+
+h1 {
+    width: 40vw;
+    font-family: Charm;
+    font-size: 4rem;
+    color: rgb(70, 0, 10);
+}
+
+#main {
+    width: 100%;
+    height: 40vh;
+    position: relative;
+}
+
+#para {
+    height: 10vh;
+    width: 40vw;
+    font-size: 1rem;
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 30vw;
+    background: rgb(255, 235, 235);
+}
+
+    #para p a {
+        text-decoration: underline;
+        cursor: pointer;
+        color: rgb(70, 0, 10);
+    }
+
+#p2 {
+    margin-top: 3vh;
+}
+
+.user {
+    width: 21%;
+    height: 40%;
+    margin-top: 2%;
+    margin-left: 37%;
+    background: rgb(70, 0, 10);
+    color: rgb(255, 235, 235);
+    display: flex;
+    flex-direction: column;
+    transform: rotateX(90deg);
+    transition: all 2s ease-in-out;
+}
+
+.rotated {
+    width: 21%;
+    height: 40%;
+    margin-top: 2%;
+    margin-left: 37%;
+    background: rgb(70, 0, 10);
+    color: rgb(255, 235, 235);
+    display: flex;
+    flex-direction: column;
+    transform: rotateX(0deg);
+    transition: all 2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.tr {
+    height: 15%;
+    width: 100%;
+}
+.td {
+    height: 15%;
+    width: 100%;
+}
+.ltd {
+    margin-left: 9%;
+    height: 15%;
+    width: 100%;
+}
+
+/*.pw {
+    position: absolute;
+    width: 21vw;
+    height: 18vh;
+    margin-top: 51vh;
+    margin-left: 37vw;
+    background: rgb(70, 0, 10);
+    color: rgb(255, 235, 235);
+    transform: rotateX(90deg);
+    transition: all 2s ease-in-out;
+}
+
+.animatepw {
+    position: absolute;
+    width: 21vw;
+    height: 18vh;
+    margin-top: 51vh;
+    margin-left: 37vw;
+    background: rgb(70, 0, 10);
+    color: rgb(255, 235, 235);
+    transform: rotateX(0deg);
+    transition: all 2s ease-in-out;
+}*/
+
+.lb {    
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 1rem;
+    color: rgb(255, 235, 235);
+}
+
+.tb {
+    width: 80%;
+    height: 10%;
+    margin: 5% 11% 5% 9%;
+    font-size: 1rem;
+}
+
+.btn {
+    width: 40%;
+    height: 10%;
+    font-size: 1rem;
+    margin-top: 5%;
+    margin-right: 10%;
+    color: rgb(255, 235, 235);
+    background: rgb(70, 0, 10);
+    border: 1px solid rgb(255, 235, 235);
+}
+
+    .btn:hover {
+        color: rgb(70, 0, 10);
+        background: rgb(255, 235, 235);
+    }
+.error {
+    /*width: 21vw;
+    height: 12vh;
+    margin-left: 37%;
+    text-align: center;
+    color: rgb(70, 0, 10);
+    background: rgb(255, 235, 235);*/
+}
+@media only screen and (min-width: 320px) and (orientation: portrait) {
+    body {
+        min-height: 100%;
+        min-width: 100%;
+        background: rgb(255, 235, 235);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1rem;
+    }
+    header {
+        margin-top: 0;
+        margin-left: 0;
+        width: 100vw;
+    }
+    #logo {
+        margin-top: 0;
+        margin-left: 20vw;
+        width: 60vw;
+        height: 30vh;
+    }
+    img {
+        width: 56vw;
+        height: 28vh;
+    }
+    #heading {
+        margin-top: 30vh;
+        margin-left: 0;
+        width: 100vw;
+        height: 20vh;
+    }
+    h1 {
+        margin-left: 15vw;
+        width: 100vw;
+        font-family: Charm;
+        font-size: 2rem;
+        color: rgb(70, 0, 10);
+    }
+    #para {
+        margin-top: 40vh;
+        margin-left: 3vw;
+        width: 95vw;
+    }
+    .user {
+        margin-top: 18vh;
+        margin-left: 8vw;
+        width: 80%;
+        height: 42%;
+    }
+    .rotated {
+        margin-top: 18vh;
+        margin-left: 8vw;
+        width: 80%;
+        height: 42%;
+    }
+}
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+    body {
+        min-height: 100%;
+        min-width: 100%;
+        background: rgb(255, 235, 235);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1rem;
+    }
+    header {
+        margin-top: 0;
+        margin-left: 0;
+        width: 100vw;
+    }
+
+    #logo {
+        margin-top: 1vh;
+        margin-left: 2vw;
+        width: 10vw;
+        height: 20vh;
+    }
+
+    img {
+        width: 12vw;
+        height: 26vh;
+    }
+
+    h1 {
+        margin-left: 5vw;
+        width: 80vw;
+        font-family: Charm;
+        font-size: 2rem;
+        color: rgb(70, 0, 10);
+    }
+
+    #main {
+        width: 80%;
+        height: 40vh;
+        position: relative;
+    }
+
+    #para {
+        margin-top: 28vh;
+        margin-left: 10vw;
+        text-align: center;
+        width: 80vw;
+    }
+
+    .user {
+        margin-top: 15vh;
+        margin-left: 25vw;
+        width: 40%;
+        height: 72%;
+    }
+
+    .rotated {
+        margin-top: 15vh;
+        margin-left: 25vw;
+        width: 40%;
+        height: 72%;
+    }
+}
